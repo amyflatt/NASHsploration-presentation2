@@ -1,0 +1,11 @@
+$ mkdir ~/NASHsploration-presentation2
+  #This creates a directory for our project called NASHsplorations-presentation2
+
+$ cd ~/NASHsploration-presentation2
+#changes the current working directory to a newly created directory
+
+$ git init
+#sets up the necessary git files
+
+$ touch README
+#creates a file called "README" in 

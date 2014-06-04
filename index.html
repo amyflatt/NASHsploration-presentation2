@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>NASHspoloration</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Lee Perry and Amy Flatt">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>NASHsploration</h1>
+					<p>
+						Created by Team NASHsploration </a>
+					</p>
+				</section>
+
+				<section>
+					<ul><ul>
+					<h1>Motivation</h1>
+					<h2><li>Gamification</li>
+					<li>Health </li>
+					<li>Education</li></h2>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h1>Summary of Features</h1>
+						<ul><ul>
+						<h2><li>Locations</li>
+						<li>Quests</li>
+						<li>Groups</li>
+						<li>Leaderboard</li></h2>
+						</ul>
+					</section>
+					<section>
+						<h1>Locations</h1>
+						<ul><ul>
+							<h2><li> Art</li>
+							<li>Historical Landmarks</li>
+							<li>Parks</li></h2>
+					</section>
+					<section>
+						<h1>Quests</h1>
+						<ul><ul>
+						<h2><li>Created by teachers, group leaders, or friends</li>
+						</h2>
+					</ul>
+					</section>
+					<section>
+						<h1>Groups</h1>
+						<ul><ul>
+						<h2><li>Classes</li>
+						<li>Friends</li>
+						</h2>
+					</ul>
+					</section>
+					<section>
+						<h1>Leaderboard</h1>
+						<ul><ul>
+						<h2><li>Badges</li>
+						<li>Levels</li>
+						<li>Points</li></h2>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<ul><ul>
+					<h1>Benefits</h1>
+					<h2><li>Motivation to learn</li>
+					<li>Path to Better Health</li>
+					<li>Educational Enrichment</li></h2>
+					</ul>
+				</section>
+
+				<section>
+					<ul><ul>
+					<h1>Future Direction</h1>
+					<h2><li>CMA Fest</li>
+					<li>Business related quests</li>
+					<li>Expand to other cities</li></h2>
+					</ul>
+				</section>
+
+				<section>
+					<ul><ul>
+					<h2>Team NASHsploration:</h2>
+					<h3><p>Chuck Bryant, Amy Flatt, Nathan Hood,</p>
+					<p>Jeremy Ideus, Aaron Johnson, John Liu,</p>
+					<p>Kaili Liu, Everitt Perry, Lee Perry,</p>
+					<p>Jason Pullias, Randy Russell, Richmond Watkins</p></h3>
+					</ul>
+				</section>
+
+				<section>
+					<ul><ul>
+					<h2>Many Thanks</h2>
+					<h2><p>To Our Hack4Change Organizers</p></h2>
+					<h3><p>Amber Adams, William Golden, Andrew McElroy,</p>
+					<p>Jacques Woodcock, and Brendon Wovchko</p></h3>
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
